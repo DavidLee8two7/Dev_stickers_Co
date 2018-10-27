@@ -1,14 +1,14 @@
- import Link from 'next/link';
+import Link from 'next/link';
 
- const Nav = () => (
-   <div>
-     <Link href="/sell">
+const Nav = () => (
+  <div>
+    <Link href="/sell">
       <a>Sell!</a>
-     </Link>
-     <Link href="/">
+    </Link>
+    <Link href="/">
       <a>Home!</a>
-     </Link>
-   </div>
- );
+    </Link>
+  </div>
+);
 
- export default Nav;
+export default Nav;
