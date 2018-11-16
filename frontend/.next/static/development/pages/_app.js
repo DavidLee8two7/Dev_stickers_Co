@@ -297,7 +297,7 @@ var Nav = function Nav() {
         lineNumber: 29
       },
       __self: this
-    }, "Signup")));
+    }, "Sign In")));
   });
 };
 
