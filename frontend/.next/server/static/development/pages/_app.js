@@ -927,6 +927,13 @@ function (_React$Component) {
           id: this.props.id
         },
         update: this.update,
+        optimisticResponse: {
+          __typename: "Mutation",
+          removeFromCart: {
+            __typename: "CartItem",
+            id: this.props.id
+          }
+        },
         __source: {
           fileName: _jsxFileName,
           lineNumber: 48
@@ -945,7 +952,7 @@ function (_React$Component) {
           title: "Delete Item",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 54
+            lineNumber: 61
           },
           __self: this
         }, "\xD7");
