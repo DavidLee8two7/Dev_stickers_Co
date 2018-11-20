@@ -1530,10 +1530,11 @@ function (_React$Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
+                nprogress__WEBPACK_IMPORTED_MODULE_5___default.a.start();
                 console.log("OnToken Called!");
                 console.log(res.id); // manually call the mutation once we have the stripe token
 
-                _context.next = 4;
+                _context.next = 5;
                 return createOrder({
                   variables: {
                     token: res.id
@@ -1542,11 +1543,16 @@ function (_React$Component) {
                   alert(err.message);
                 });
 
-              case 4:
+              case 5:
                 order = _context.sent;
-                console.log(order);
+                next_router__WEBPACK_IMPORTED_MODULE_4___default.a.push({
+                  pathname: "/order",
+                  query: {
+                    id: order.data.createOrder.id
+                  }
+                });
 
-              case 6:
+              case 7:
               case "end":
                 return _context.stop();
             }
@@ -1570,7 +1576,7 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_User__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 51
         },
         __self: this
       }, function (_ref2) {
@@ -1582,7 +1588,7 @@ function (_React$Component) {
           }],
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 49
+            lineNumber: 53
           },
           __self: this
         }, function (createOrder) {
@@ -1599,7 +1605,7 @@ function (_React$Component) {
             },
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 54
+              lineNumber: 58
             },
             __self: this
           }, _this2.props.children);
