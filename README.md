@@ -1,2 +1,2 @@
-# GraphQL
+# DeveloperStickers.com
 GraphQL with React
