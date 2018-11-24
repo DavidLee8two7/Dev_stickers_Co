@@ -1,2 +1,2 @@
-# DeveloperStickers.com
+# Developer Stickers.com
 GraphQL with React
