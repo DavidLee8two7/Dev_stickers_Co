@@ -1,2 +1,2 @@
-# T-shirts-factory-prototype
+# Developer Stickers.com
 GraphQL with React
