@@ -28,7 +28,7 @@ const Pagination = props => {
           <PaginationStyles data-test="pagination">
             <Head>
               <title>
-                Sick Fits! - Page {page} of {pages}
+                T-shirts | Page {page} of {pages}
               </title>
             </Head>
             <Link
@@ -40,9 +40,9 @@ const Pagination = props => {
               </a>
             </Link>
             <p>
-              Page {props.page} of <span className="totalPages">{pages}</span>!
+              Page {props.page} / <span className="totalPages">{pages}</span>
             </p>
-            <p>{count} Items Total</p>
+            <p>Total of {count} items</p>
             <Link
               prefetch
               href={{ pathname: "items", query: { page: page + 1 } }}

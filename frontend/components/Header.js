@@ -21,11 +21,9 @@ const Logo = styled.h1`
   margin-left: 2rem;
   position: relative;
   z-index: 2;
-  transform: skew(-7deg);
   a {
     padding: 0.5rem 1rem;
-    background: ${props => props.theme.red};
-    color: white;
+    color: ${props => props.theme.black};
     text-transform: uppercase;
     text-decoration: none;
   }

@@ -45,7 +45,7 @@ class Order extends React.Component {
           return (
             <OrderStyles data-test="order">
               <Head>
-                <title>Sticker.com - Order {order.id}</title>
+                <title>T-shirts Factory - Order {order.id}</title>
               </Head>
               <p>
                 <span>Order ID:</span>
