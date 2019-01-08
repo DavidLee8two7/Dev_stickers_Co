@@ -5604,7 +5604,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/jaehoonlee/DVL.com/Dev_stickers_Co/frontend/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/jaehoonlee/DVL.com/T-shirts-factory-prototype/frontend/.next");
       return error;
     }
   };
