@@ -10,6 +10,9 @@ const Nav = () => (
   <User>
     {({ data: { me } }) => (
       <NavStyles data-test="nav">
+        <Link href="/home">
+          <a>Home</a>
+        </Link>
         <Link href="/items">
           <a>Shop</a>
         </Link>
@@ -20,9 +23,6 @@ const Nav = () => (
             </Link>
             <Link href="/orders">
               <a>Orders</a>
-            </Link>
-            <Link href="/me">
-              <a>Account</a>
             </Link>
             <Signout />
             <Mutation mutation={TOGGLE_CART_MUTATION}>
