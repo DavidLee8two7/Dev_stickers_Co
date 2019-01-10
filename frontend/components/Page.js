@@ -15,7 +15,7 @@ const theme = {
   maxWidth: "100%",
   bs: "0 12px 24px 0 rgba(0, 0, 0, 0.09)",
   fontDisplay: "'Coiny', cursive",
-  fontPrimary: "'Raleway', sans-serif",
+  fontSecondary: "'Raleway', sans-serif",
   ts: "1px 1px 2px rgba(126, 126, 126, 0.75)"
 };
 

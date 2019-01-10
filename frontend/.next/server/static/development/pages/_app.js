@@ -799,13 +799,13 @@ next_router__WEBPACK_IMPORTED_MODULE_4___default.a.onRouteChangeError = function
 var Logo = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.h1.withConfig({
   displayName: "Header__Logo",
   componentId: "sc-12ds9y6-0"
-})(["font-size:4rem;margin-left:2rem;position:relative;z-index:3;a{padding:0.5rem 1rem;font-size:2.8rem;font-family:", ";color:white;text-shadow:0.6px 0.6px 0.8px rgba(255,255,255,0.75);text-transform:uppercase;text-decoration:none;}@media (max-width:1300px){margin:0;text-align:center;}"], function (props) {
+})(["margin-left:2rem;position:relative;z-index:3;a{padding:0.5rem 1rem;font-size:4.8rem;font-family:", ";color:white;text-shadow:0.6px 0.6px 0.8px rgba(255,255,255,0.75);text-transform:uppercase;text-decoration:none;}@media (max-width:1300px){margin:0;text-align:center;}"], function (props) {
   return props.theme.fontDisplay;
 });
 var StyleHeader = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.header.withConfig({
   displayName: "Header__StyleHeader",
   componentId: "sc-12ds9y6-1"
-})([".bar{background:", ";border-bottom:2px solid ", ";display:grid;grid-template-columns:auto 1fr;justify-content:space-between;align-items:stretch;@media (max-width:1300px){grid-template-columns:1fr;justify-content:center;}}.sub-bar{max-width:1200px;margin:2rem auto;margin-bottom:0;display:grid;grid-template-columns:1fr auto;border-bottom:1px solid ", ";}"], function (props) {
+})(["margin:2rem auto;.bar{background:", ";border-bottom:2px solid ", ";display:grid;grid-template-columns:auto 1fr;justify-content:space-between;align-items:stretch;@media (max-width:1300px){grid-template-columns:1fr;justify-content:center;}}.sub-bar{max-width:1200px;margin:2rem auto;margin-bottom:0;display:grid;grid-template-columns:1fr auto;border-bottom:1px solid ", ";}"], function (props) {
   return props.theme.brown;
 }, function (props) {
   return props.theme.lightGray;
@@ -834,7 +834,7 @@ var Header = function Header() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
+    href: "/items",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 66
@@ -846,7 +846,7 @@ var Header = function Header() {
       lineNumber: 67
     },
     __self: this
-  }, "T-shirts Factory Logo here"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "T-shirts & all kinds"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 70
@@ -1176,7 +1176,7 @@ var theme = {
   maxWidth: "100%",
   bs: "0 12px 24px 0 rgba(0, 0, 0, 0.09)",
   fontDisplay: "'Coiny', cursive",
-  fontPrimary: "'Raleway', sans-serif",
+  fontSecondary: "'Raleway', sans-serif",
   ts: "1px 1px 2px rgba(126, 126, 126, 0.75)"
 };
 var StyledPage = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
@@ -2111,7 +2111,7 @@ __webpack_require__.r(__webpack_exports__);
 var FooterDiv = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.footer.withConfig({
   displayName: "FooterStyles__FooterDiv",
   componentId: "sc-9lfkkk-0"
-})(["z-index:3;grid-row:8;grid-column:1 / span 4;padding:2rem;display:grid;grid-template-columns:1fr 1fr;justify-items:center;align-items:center;font-size:1.8rem;background:", ";"], function (props) {
+})(["z-index:3;grid-row:8;grid-column:1 / span 4;padding:1rem;display:grid;grid-template-columns:1fr 1fr;justify-items:center;align-items:center;font-size:1.8rem;background:", ";"], function (props) {
   return props.theme.brown;
 });
 var LogoDiv = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
@@ -2125,13 +2125,17 @@ var ContactDiv = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.wi
 var FooterNav = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "FooterStyles__FooterNav",
   componentId: "sc-9lfkkk-3"
-})(["display:inline-block;text-align:left;ul{list-style:none;}li{font-size:1.8rem;display:inline-block;margin-right:2.5rem;}a{color:white;&:link,&:visited{color:white;text-decoration:none;text-transform:uppercase;display:inline-block;transition:all 0.2s;}&:hover,&:active{font-weight:600;color:", ";box-shadow:0 1rem 2rem rgba(orange,0.4);transform:translateY(-1rem) rotate(3deg) scale(1.01);}}@media (max-width:750px){display:none;}"], function (props) {
+})(["display:inline-block;text-align:left;ul{list-style:none;}li{font-size:2.2rem;font-weight:600;display:inline-block;margin-right:2.5rem;}a{color:white;font-size:2.2rem;font-weight:600;text-shadow:", ";&:link,&:visited{color:white;text-decoration:none;text-transform:uppercase;display:inline-block;transition:all 0.2s;}&:hover,&:active{font-weight:600;color:", ";box-shadow:0 1rem 2rem rgba(orange,0.4);transform:translateY(-1rem) rotate(3deg) scale(1.01);}}@media (max-width:750px){display:none;}"], function (props) {
+  return props.theme.ts;
+}, function (props) {
   return props.theme.orange;
 });
 var CopyRight = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "FooterStyles__CopyRight",
   componentId: "sc-9lfkkk-4"
-})(["width:100%;text-align:center;color:white;font-size:2.5rem;font-weight:600;a{color:white;&:link,&:visited{text-decoration:none;text-transform:uppercase;display:inline-block;transition:all 0.2s;}&:hover,&:active{color:", ";box-shadow:0 1rem 2rem rgba(orange,0.4);transform:translateY(-1rem) rotate(3deg) scale(1.01);}}@media screen and (max-width:750px){font-size:2rem;font-weight:400;}@media screen and (max-width:500px){font-size:1.6rem;}"], function (props) {
+})(["width:100%;text-align:center;color:white;font-size:3.5rem;font-family:", ";a{color:white;&:link,&:visited{text-decoration:none;text-transform:uppercase;display:inline-block;transition:all 0.2s;}&:hover,&:active{color:", ";box-shadow:0 1rem 2rem rgba(orange,0.4);transform:translateY(-1rem) rotate(3deg) scale(1.01);}}@media screen and (max-width:750px){font-size:2rem;font-weight:400;}@media screen and (max-width:500px){font-size:1.6rem;}"], function (props) {
+  return props.theme.fontDisplay;
+}, function (props) {
   return props.theme.orange;
 });
 

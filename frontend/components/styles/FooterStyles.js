@@ -4,7 +4,7 @@ const FooterDiv = styled.footer`
   z-index: 3;
   grid-row: 8;
   grid-column: 1 / span 4;
-  padding: 2rem;
+  padding: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
@@ -55,12 +55,16 @@ const FooterNav = styled.div`
     list-style: none;
   }
   li {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
+    font-weight: 600;
     display: inline-block;
     margin-right: 2.5rem;
   }
   a {
     color: white;
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-shadow: ${props => props.theme.ts};
     &:link,
     &:visited {
       color: white;
@@ -86,8 +90,8 @@ const CopyRight = styled.div`
   width: 100%;
   text-align: center;
   color: white;
-  font-size: 2.5rem;
-  font-weight: 600;
+  font-size: 3.5rem;
+  font-family: ${props => props.theme.fontDisplay};
   a {
     color: white;
     &:link,

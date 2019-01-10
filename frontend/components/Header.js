@@ -17,13 +17,12 @@ Router.onRouteChangeError = () => {
 };
 
 const Logo = styled.h1`
-  font-size: 4rem;
   margin-left: 2rem;
   position: relative;
   z-index: 3;
   a {
     padding: 0.5rem 1rem;
-    font-size: 2.8rem;
+    font-size: 4.8rem;
     font-family: ${props => props.theme.fontDisplay};
     color: white;
     text-shadow: 0.6px 0.6px 0.8px rgba(255, 255, 255, 0.75);
@@ -37,6 +36,7 @@ const Logo = styled.h1`
 `;
 
 const StyleHeader = styled.header`
+  margin: 2rem auto;
   .bar {
     background: ${props => props.theme.brown};
     border-bottom: 2px solid ${props => props.theme.lightGray};
@@ -63,8 +63,8 @@ const Header = () => (
   <StyleHeader>
     <div className="bar">
       <Logo>
-        <Link href="/">
-          <a>T-shirts Factory Logo here</a>
+        <Link href="/items">
+          <a>T-shirts & all kinds</a>
         </Link>
       </Logo>
       <Nav />
