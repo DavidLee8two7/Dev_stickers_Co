@@ -8,16 +8,16 @@ const PaginationStyles = styled.div`
   justify-content: center;
   align-content: center;
   margin: 4rem 0;
-  border-bottom: 1px solid ${props => props.theme.lightgrey};
+  border-bottom: 1px solid ${props => props.theme.lightGray};
+  font-weight: 600;
   & > * {
     margin: 0;
     padding: 15px 30px;
-    /* border-right: 1px solid ${props => props.theme.lightgrey}; */
     &:last-child {
       border-right: 0;
     }
   }
-  a[aria-disabled='true'] {
+  a[aria-disabled="true"] {
     color: grey;
     pointer-events: none;
   }
