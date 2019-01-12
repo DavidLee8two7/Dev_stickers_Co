@@ -7,7 +7,7 @@ https://tshirtsfactory.herokuapp.com/
 
 For full functionality you can use below info.
 
-user id: admin
+user id: admin@gmail.com
 
 password: admin123
 
