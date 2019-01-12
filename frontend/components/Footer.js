@@ -9,7 +9,7 @@ class FooterSection extends Component {
         <Address>2337 S Bristol St. Santa Ana, CA 92704</Address>
         <CopyRight>
           Copyright &copy; by{" "}
-          <Link prefetch href="/contact">
+          <Link prefetch href="/home">
             <a>T - Shirts Factory</a>
           </Link>{" "}
           | Since 1997
