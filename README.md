@@ -1,8 +1,6 @@
-# Prototype website for clothing shop
-GraphQL with React fullstack
+# Prototype website for clothing shop - GraphQL with React fullstack
 
-website address:
-
+website address: 
 https://tshirtsfactory.herokuapp.com/
 
 For full functionality you can use below info.
@@ -11,5 +9,17 @@ user id: admin@gmail.com
 
 password: admin123
 
- You can also create your own user id
+credit card sample: 4242 4242 4242 4242
+
+expiration: 02/22
+
+cvs: 222
+
+ You can also create your own user id.
+ 
+ thank you for visiting
+ 
+ Best Regards,
+ 
+David Lee
  
