@@ -24,27 +24,50 @@ const Logo = styled.h1`
     padding: 0.5rem 1rem;
     font-size: 4.8rem;
     font-family: ${props => props.theme.fontDisplay};
-    color: white;
+    color: ${props => props.theme.offWhite};
     text-shadow: 0.6px 0.6px 0.8px rgba(255, 255, 255, 0.75);
     text-transform: uppercase;
     text-decoration: none;
   }
-  @media (max-width: 1300px) {
+  @media (max-width: 1350px) {
     margin: 0;
     text-align: center;
+    a {
+      font-size: 4rem;
+    }
+  }
+  @media (max-width: 1050px) {
+    a {
+      font-size: 3.2rem;
+    }
+  }
+  @media (max-width: 800px) {
+    a {
+      font-size: 2.8rem;
+    }
+  }
+  @media (max-width: 550px) {
+    a {
+      font-size: 2.5rem;
+    }
+  }
+  @media (max-width: 350px) {
+    a {
+      font-size: 1.5rem;
+    }
   }
 `;
 
 const StyleHeader = styled.header`
-  margin: 2rem auto;
+  margin: 0 auto 2rem auto;
   .bar {
     background: ${props => props.theme.brown};
-    border-bottom: 2px solid ${props => props.theme.lightGray};
+    border-bottom: 2px solid yellow;
     display: grid;
     grid-template-columns: auto 1fr;
     justify-content: space-between;
     align-items: stretch;
-    @media (max-width: 1300px) {
+    @media screen and (max-width: 1350px) {
       grid-template-columns: 1fr;
       justify-content: center;
     }
@@ -55,7 +78,7 @@ const StyleHeader = styled.header`
     margin-bottom: 0;
     display: grid;
     grid-template-columns: 1fr auto;
-    border-bottom: 1px solid ${props => props.theme.lightGray};
+    border-bottom: 1px solid yellow;
   }
 `;
 
@@ -64,7 +87,7 @@ const Header = () => (
     <div className="bar">
       <Logo>
         <Link href="/items">
-          <a>T-shirts & all kinds</a>
+          <a>T - shirts factory</a>
         </Link>
       </Logo>
       <Nav />

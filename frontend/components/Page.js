@@ -9,7 +9,7 @@ const theme = {
   white: "#ffffff", // 255,255,255
   offWhite: "#f5f8fa", // 245,248,250
   lightGray: "#e1e1e1", // 225,225,225
-  red: "#ff0000", // 255,0,0
+  red: "#f57f17", // 245,127,23
   yellow: "#f7df1e", // 247,223,30
   brown: "#3e2723", // 62,39,35
   maxWidth: "100%",

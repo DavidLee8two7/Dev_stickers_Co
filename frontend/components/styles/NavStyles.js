@@ -9,7 +9,6 @@ const NavStyles = styled.ul`
   font-weight: 600;
   a,
   button {
-    padding: 1rem 3rem;
     display: flex;
     align-items: center;
     position: relative;
@@ -18,11 +17,27 @@ const NavStyles = styled.ul`
     background: none;
     color: ${props => props.theme.offWhite};
     text-shadow: 0.3px 0.3px 0.6px rgba(255, 255, 255, 0.75);
+    padding: 1rem 3rem;
     font-size: 2.2rem;
     cursor: pointer;
-    @media (max-width: 700px) {
-      font-size: 10px;
-      padding: 0 10px;
+    @media screen and (max-width: 1350px) {
+      font-size: 2rem;
+    }
+    @media screen and (max-width: 1050px) {
+      font-size: 1.8rem;
+      padding: 0 2rem;
+    }
+    @media screen and (max-width: 950px) {
+      font-size: 1.4rem;
+      padding: 0 1.4rem;
+    }
+    @media screen and (max-width: 500px) {
+      font-size: 1.2rem;
+      padding: 0 1rem;
+    }
+    @media screen and (max-width: 350px) {
+      padding: 0 0.5rem;
+      font-size: 1rem;
     }
     &:before {
       content: "";
@@ -36,7 +51,7 @@ const NavStyles = styled.ul`
     }
     &:after {
       height: 2px;
-      background: red;
+      background: yellow;
       content: "";
       width: 0;
       position: absolute;
@@ -54,11 +69,14 @@ const NavStyles = styled.ul`
       }
     }
   }
-  @media (max-width: 1300px) {
-    border-top: 1px solid ${props => props.theme.lightGray};
+  @media (max-width: 1350px) {
+    border-top: 1.5px solid yellow;
     width: 100%;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+  @media screen and (max-width: 500px) {
+    border-top: none;
   }
 `;
 

@@ -43,6 +43,27 @@ const SearchStyles = styled.div`
       animation: ${glow} 0.5s ease-in-out infinite alternate;
     }
   }
+  @media screen and (max-width: 1200px) {
+    input {
+      font-size: 1.8rem;
+    }
+  }
+  @media screen and (max-width: 950px) {
+    input {
+      padding: 5px;
+      font-size: 1.6rem;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    input {
+      font-size: 1.4rem;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    input {
+      font-size: 1.2rem;
+    }
+  }
 `;
 
 export { DropDown, DropDownItem, SearchStyles };

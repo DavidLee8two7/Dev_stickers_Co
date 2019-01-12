@@ -322,7 +322,7 @@ var AnimationStyles = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.s
 var Dot = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div.withConfig({
   displayName: "CartCount__Dot",
   componentId: "sc-8yr9uv-1"
-})(["background:", ";color:white;border-radius:50%;padding:0.5rem;line-height:2rem;min-width:3rem;margin-left:1rem;font-weight:100;font-feature-settings:\"tnum\";font-variant-numeric:tabular-nums;"], function (props) {
+})(["background:", ";color:white;border-radius:50%;padding:0.5rem;line-height:2rem;min-width:3rem;margin-left:1rem;font-weight:100;font-feature-settings:\"tnum\";font-variant-numeric:tabular-nums;@media screen and (max-width:350px){transform:scale(0.8);}"], function (props) {
   return props.theme.red;
 });
 
@@ -331,13 +331,13 @@ var CartCount = function CartCount(_ref) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AnimationStyles, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 48
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_transition_group__WEBPACK_IMPORTED_MODULE_2__["TransitionGroup"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_transition_group__WEBPACK_IMPORTED_MODULE_2__["CSSTransition"], {
@@ -351,13 +351,13 @@ var CartCount = function CartCount(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Dot, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 57
     },
     __self: this
   }, count))));
@@ -623,27 +623,21 @@ function (_Component) {
           lineNumber: 9
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_FooterStyles__WEBPACK_IMPORTED_MODULE_3__["FooterNav"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_FooterStyles__WEBPACK_IMPORTED_MODULE_3__["Address"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 10
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      }, "2337 S Bristol St. Santa Ana, CA 92704"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_FooterStyles__WEBPACK_IMPORTED_MODULE_3__["CopyRight"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 11
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      }, "Copyright \xA9 by", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
         prefetch: true,
-        href: "/index",
+        href: "/contact",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13
@@ -655,93 +649,7 @@ function (_Component) {
           lineNumber: 14
         },
         __self: this
-      }, "Home"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        prefetch: true,
-        href: "/items",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }, "Shop"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        prefetch: true,
-        href: "/orders",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        },
-        __self: this
-      }, "Orders"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        prefetch: true,
-        href: "/contact",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29
-        },
-        __self: this
-      }, "Contact"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_FooterStyles__WEBPACK_IMPORTED_MODULE_3__["CopyRight"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35
-        },
-        __self: this
-      }, "Copyright \xA9 by", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        prefetch: true,
-        href: "/contact",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        },
-        __self: this
-      }, "T - Shirts Factory")))));
+      }, "T - Shirts Factory")), " ", "| Since 1997"));
     }
   }]);
 
@@ -799,76 +707,74 @@ next_router__WEBPACK_IMPORTED_MODULE_4___default.a.onRouteChangeError = function
 var Logo = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.h1.withConfig({
   displayName: "Header__Logo",
   componentId: "sc-12ds9y6-0"
-})(["margin-left:2rem;position:relative;z-index:3;a{padding:0.5rem 1rem;font-size:4.8rem;font-family:", ";color:white;text-shadow:0.6px 0.6px 0.8px rgba(255,255,255,0.75);text-transform:uppercase;text-decoration:none;}@media (max-width:1300px){margin:0;text-align:center;}"], function (props) {
+})(["margin-left:2rem;position:relative;z-index:3;a{padding:0.5rem 1rem;font-size:4.8rem;font-family:", ";color:", ";text-shadow:0.6px 0.6px 0.8px rgba(255,255,255,0.75);text-transform:uppercase;text-decoration:none;}@media (max-width:1350px){margin:0;text-align:center;a{font-size:4rem;}}@media (max-width:1050px){a{font-size:3.2rem;}}@media (max-width:800px){a{font-size:2.8rem;}}@media (max-width:550px){a{font-size:2.5rem;}}@media (max-width:350px){a{font-size:1.5rem;}}"], function (props) {
   return props.theme.fontDisplay;
+}, function (props) {
+  return props.theme.offWhite;
 });
 var StyleHeader = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.header.withConfig({
   displayName: "Header__StyleHeader",
   componentId: "sc-12ds9y6-1"
-})(["margin:2rem auto;.bar{background:", ";border-bottom:2px solid ", ";display:grid;grid-template-columns:auto 1fr;justify-content:space-between;align-items:stretch;@media (max-width:1300px){grid-template-columns:1fr;justify-content:center;}}.sub-bar{max-width:1200px;margin:2rem auto;margin-bottom:0;display:grid;grid-template-columns:1fr auto;border-bottom:1px solid ", ";}"], function (props) {
+})(["margin:0 auto 2rem auto;.bar{background:", ";border-bottom:2px solid yellow;display:grid;grid-template-columns:auto 1fr;justify-content:space-between;align-items:stretch;@media screen and (max-width:1350px){grid-template-columns:1fr;justify-content:center;}}.sub-bar{max-width:1200px;margin:2rem auto;margin-bottom:0;display:grid;grid-template-columns:1fr auto;border-bottom:1px solid yellow;}"], function (props) {
   return props.theme.brown;
-}, function (props) {
-  return props.theme.lightGray;
-}, function (props) {
-  return props.theme.lightGray;
 });
 
 var Header = function Header() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyleHeader, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 86
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "bar",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 87
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Logo, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 88
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/items",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 89
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 90
     },
     __self: this
-  }, "T-shirts & all kinds"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "T - shirts factory"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 93
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-bar",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 95
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Search__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 96
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Cart__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 98
     },
     __self: this
   }));
@@ -1167,8 +1073,8 @@ var theme = {
   // 245,248,250
   lightGray: "#e1e1e1",
   // 225,225,225
-  red: "#ff0000",
-  // 255,0,0
+  red: "#f57f17",
+  // 245,127,23
   yellow: "#f7df1e",
   // 247,223,30
   brown: "#3e2723",
@@ -2086,7 +1992,7 @@ var glow = Object(styled_components__WEBPACK_IMPORTED_MODULE_0__["keyframes"])([
 var SearchStyles = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "DropDown__SearchStyles",
   componentId: "lrjuvh-2"
-})(["position:relative;input{width:100%;padding:10px;border:0;font-size:2rem;&.loading{animation:", " 0.5s ease-in-out infinite alternate;}}"], glow);
+})(["position:relative;input{width:100%;padding:10px;border:0;font-size:2rem;&.loading{animation:", " 0.5s ease-in-out infinite alternate;}}@media screen and (max-width:1200px){input{font-size:1.8rem;}}@media screen and (max-width:950px){input{padding:5px;font-size:1.6rem;}}@media screen and (max-width:750px){input{font-size:1.4rem;}}@media screen and (max-width:550px){input{font-size:1.2rem;}}"], glow);
 
 
 /***/ }),
@@ -2095,15 +2001,13 @@ var SearchStyles = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.
 /*!*******************************************!*\
   !*** ./components/styles/FooterStyles.js ***!
   \*******************************************/
-/*! exports provided: FooterDiv, FooterNav, ContactDiv, LogoDiv, CopyRight */
+/*! exports provided: FooterDiv, Address, CopyRight */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterDiv", function() { return FooterDiv; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterNav", function() { return FooterNav; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactDiv", function() { return ContactDiv; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LogoDiv", function() { return LogoDiv; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Address", function() { return Address; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CopyRight", function() { return CopyRight; });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
@@ -2111,32 +2015,24 @@ __webpack_require__.r(__webpack_exports__);
 var FooterDiv = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.footer.withConfig({
   displayName: "FooterStyles__FooterDiv",
   componentId: "sc-9lfkkk-0"
-})(["z-index:3;grid-row:8;grid-column:1 / span 4;padding:1rem;display:grid;grid-template-columns:1fr 1fr;justify-items:center;align-items:center;font-size:1.8rem;background:", ";"], function (props) {
+})(["z-index:3;grid-row:8;grid-column:1 / span 4;padding:3rem;display:grid;grid-template-columns:1fr 1fr;justify-items:center;align-items:center;background:", ";@media screen and (max-width:700px){display:grid;grid-template-columns:1fr;grid-row-gap:1rem;}"], function (props) {
   return props.theme.brown;
 });
-var LogoDiv = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
-  displayName: "FooterStyles__LogoDiv",
+var Address = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "FooterStyles__Address",
   componentId: "sc-9lfkkk-1"
-})(["text-align:center;width:60%;transform:scale(1);transition:all 0.4s;img{width:100%;transition:all 0.4s;&:hover{transform:scale(1.07);}}&:hover img{transform:scale(1.07);}@media screen and (max-width:750px){grid-row:1;}"]);
-var ContactDiv = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
-  displayName: "FooterStyles__ContactDiv",
-  componentId: "sc-9lfkkk-2"
-})(["width:100%;grid-column:2;display:grid;grid-template-rows:1fr 1fr;justify-items:center;align-items:center;@media screen and (max-width:750px){grid-row:2;grid-column:1;display:grid;grid-template-rows:1fr;}"]);
-var FooterNav = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
-  displayName: "FooterStyles__FooterNav",
-  componentId: "sc-9lfkkk-3"
-})(["display:inline-block;text-align:left;ul{list-style:none;}li{font-size:2.2rem;font-weight:600;display:inline-block;margin-right:2.5rem;}a{color:white;font-size:2.2rem;font-weight:600;text-shadow:", ";&:link,&:visited{color:white;text-decoration:none;text-transform:uppercase;display:inline-block;transition:all 0.2s;}&:hover,&:active{font-weight:600;color:", ";box-shadow:0 1rem 2rem rgba(orange,0.4);transform:translateY(-1rem) rotate(3deg) scale(1.01);}}@media (max-width:750px){display:none;}"], function (props) {
-  return props.theme.ts;
-}, function (props) {
-  return props.theme.orange;
+})(["width:100%;text-align:center;color:", ";font-size:2.5rem;@media screen and (max-width:1250px){font-size:2.3rem;}@media screen and (max-width:1150px){font-size:2.1rem;}@media screen and (max-width:1050px){font-size:1.8rem;}@media screen and (max-width:950px){font-size:1.6rem;}@media screen and (max-width:800px){font-size:1.4rem;}@media screen and (max-width:700px){font-size:1.6rem;}@media screen and (max-width:450px){font-size:1.4rem;}@media screen and (max-width:380px){font-size:1.1rem;}"], function (props) {
+  return props.theme.offWhite;
 });
 var CopyRight = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "FooterStyles__CopyRight",
-  componentId: "sc-9lfkkk-4"
-})(["width:100%;text-align:center;color:white;font-size:3.5rem;font-family:", ";a{color:white;&:link,&:visited{text-decoration:none;text-transform:uppercase;display:inline-block;transition:all 0.2s;}&:hover,&:active{color:", ";box-shadow:0 1rem 2rem rgba(orange,0.4);transform:translateY(-1rem) rotate(3deg) scale(1.01);}}@media screen and (max-width:750px){font-size:2rem;font-weight:400;}@media screen and (max-width:500px){font-size:1.6rem;}"], function (props) {
-  return props.theme.fontDisplay;
+  componentId: "sc-9lfkkk-2"
+})(["width:100%;text-align:center;color:", ";font-size:2.5rem;a{color:", ";&:link,&:visited{text-decoration:none;text-transform:uppercase;display:inline-block;transition:all 0.2s;}&:hover,&:active{color:", ";box-shadow:0 1rem 2rem rgba(white,0.4);transform:translateY(-1rem) rotate(3deg) scale(1.01);}}@media screen and (max-width:1250px){font-size:2.3rem;}@media screen and (max-width:1150px){font-size:2.1rem;}@media screen and (max-width:1050px){font-size:1.8rem;}@media screen and (max-width:950px){font-size:1.6rem;}@media screen and (max-width:800px){font-size:1.4rem;}@media screen and (max-width:700px){font-size:1.6rem;}@media screen and (max-width:450px){font-size:1.4rem;}@media screen and (max-width:380px){font-size:1.1rem;}"], function (props) {
+  return props.theme.offWhite;
 }, function (props) {
-  return props.theme.orange;
+  return props.theme.yellow;
+}, function (props) {
+  return props.theme.offWhite;
 });
 
 
@@ -2157,10 +2053,8 @@ __webpack_require__.r(__webpack_exports__);
 var NavStyles = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.ul.withConfig({
   displayName: "NavStyles",
   componentId: "rqmyoa-0"
-})(["margin:0;padding:0;display:flex;justify-self:end;font-size:2.2rem;font-weight:600;a,button{padding:1rem 3rem;display:flex;align-items:center;position:relative;text-transform:uppercase;border:0;background:none;color:", ";text-shadow:0.3px 0.3px 0.6px rgba(255,255,255,0.75);font-size:2.2rem;cursor:pointer;@media (max-width:700px){font-size:10px;padding:0 10px;}&:before{content:\"\";width:2px;height:100%;left:0;position:absolute;transform:skew(-20deg);top:0;bottom:0;}&:after{height:2px;background:red;content:\"\";width:0;position:absolute;transform:translateX(-50%);transition:width 0.4s;transition-timing-function:cubic-bezier(1,-0.65,0,2.31);left:50%;margin-top:2rem;}&:hover,&:focus{outline:none;&:after{width:calc(100% - 60px);}}}@media (max-width:1300px){border-top:1px solid ", ";width:100%;justify-content:center;font-size:1.5rem;}"], function (props) {
+})(["margin:0;padding:0;display:flex;justify-self:end;font-size:2.2rem;font-weight:600;a,button{display:flex;align-items:center;position:relative;text-transform:uppercase;border:0;background:none;color:", ";text-shadow:0.3px 0.3px 0.6px rgba(255,255,255,0.75);padding:1rem 3rem;font-size:2.2rem;cursor:pointer;@media screen and (max-width:1350px){font-size:2rem;}@media screen and (max-width:1050px){font-size:1.8rem;padding:0 2rem;}@media screen and (max-width:950px){font-size:1.4rem;padding:0 1.4rem;}@media screen and (max-width:500px){font-size:1.2rem;padding:0 1rem;}@media screen and (max-width:350px){padding:0 0.5rem;font-size:1rem;}&:before{content:\"\";width:2px;height:100%;left:0;position:absolute;transform:skew(-20deg);top:0;bottom:0;}&:after{height:2px;background:yellow;content:\"\";width:0;position:absolute;transform:translateX(-50%);transition:width 0.4s;transition-timing-function:cubic-bezier(1,-0.65,0,2.31);left:50%;margin-top:2rem;}&:hover,&:focus{outline:none;&:after{width:calc(100% - 60px);}}}@media (max-width:1350px){border-top:1.5px solid yellow;width:100%;justify-content:center;font-size:1.3rem;}@media screen and (max-width:500px){border-top:none;}"], function (props) {
   return props.theme.offWhite;
-}, function (props) {
-  return props.theme.lightGray;
 });
 /* harmony default export */ __webpack_exports__["default"] = (NavStyles);
 
