@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Link from "next/link";
-import Signout from "./Signout";
 import { FooterDiv, Address, CopyRight } from "./styles/FooterStyles";
 
 class FooterSection extends Component {
@@ -10,7 +9,7 @@ class FooterSection extends Component {
         <Address>2337 S Bristol St. Santa Ana, CA 92704</Address>
         <CopyRight>
           Copyright &copy; by{" "}
-          <Link prefetch href="/contact">
+          <Link prefetch href="/home">
             <a>T - Shirts Factory</a>
           </Link>{" "}
           | Since 1997
