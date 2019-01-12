@@ -1,7 +1,7 @@
 # Prototype website for clothing shop
-- GraphQL with React fullstack
+GraphQL with React fullstack
 
-website address: 
+- website address: 
 https://tshirtsfactory.herokuapp.com/
 
 For full functionality you can use below info.
