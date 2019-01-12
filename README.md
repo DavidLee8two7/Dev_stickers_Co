@@ -1,5 +1,5 @@
-# T-shirts-factory, Santa Ana, CA
-GraphQL with React
+# Prototype website for clothing shop
+GraphQL with React fullstack
 
 website address:
 https://tshirtsfactory.herokuapp.com/
