@@ -43,7 +43,7 @@ class OrderList extends React.Component {
               <h2>You have {orders.length} orders</h2>
               <OrderUl>
                 {orders.map(order => (
-                  <OrderItemStyles>
+                  <OrderItemStyles key={order.id}>
                     <Link
                       href={{
                         pathname: "/order",
@@ -56,8 +56,10 @@ class OrderList extends React.Component {
                             {order.items.reduce((a, b) => a + b.quantity, 0)}{" "}
                             Items
                           </p>
-                          <p>{order.items.length} Products</p>
-                          <p>{formatDistance(order.createdAt, new Date())}</p>
+                          <p className="hide">{order.items.length} Products</p>
+                          <p className="hide">
+                            {formatDistance(order.createdAt, new Date())}
+                          </p>
                           <p>{formatMoney(order.total)}</p>
                         </div>
                         <div className="images">

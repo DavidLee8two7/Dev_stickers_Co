@@ -42,7 +42,7 @@ const Pagination = props => {
             <p>
               Page {props.page} / <span className="totalPages">{pages}</span>
             </p>
-            <p>Total of {count} items</p>
+            <p className="hide">Total of {count} items</p>
             <Link
               prefetch
               href={{ pathname: "items", query: { page: page + 1 } }}

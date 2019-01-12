@@ -48,14 +48,6 @@ class Order extends React.Component {
                 <title>T-shirts Factory - Order {order.id}</title>
               </Head>
               <p>
-                <span>Order ID:</span>
-                <span>{this.props.id}</span>
-              </p>
-              <p>
-                <span>Charge:</span>
-                <span>{order.charge}</span>
-              </p>
-              <p>
                 <span>Date:</span>
                 <span>{format(order.createdAt, "MMMM d, YYYY h:mm a")}</span>
               </p>

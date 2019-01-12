@@ -39,6 +39,9 @@ const Dot = styled.div`
   font-weight: 100;
   font-feature-settings: "tnum";
   font-variant-numeric: tabular-nums;
+  @media screen and (max-width: 350px) {
+    transform: scale(0.8);
+  }
 `;
 
 const CartCount = ({ count }) => (

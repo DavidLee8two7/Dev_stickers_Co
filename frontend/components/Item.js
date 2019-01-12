@@ -25,10 +25,10 @@ class Item extends Component {
               query: { id: item.id }
             }}
           >
-            <a>{item.title}</a>
+            <a className="title">{item.title}</a>
           </Link>
         </Title>
-        <PriceTag>{formatMoney(item.price)}</PriceTag>
+        <PriceTag className="price">{formatMoney(item.price)}</PriceTag>
         <p>{item.description}</p>
 
         <div className="buttonList">

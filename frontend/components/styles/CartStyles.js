@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const CartStyles = styled.div`
   padding: 20px;
@@ -41,6 +41,10 @@ const CartStyles = styled.div`
     padding: 0;
     list-style: none;
     overflow: scroll;
+  }
+  @media screen and (max-width: 500px) {
+    min-width: 300px;
+    height: 90%;
   }
 `;
 
