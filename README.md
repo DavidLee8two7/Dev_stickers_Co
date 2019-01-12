@@ -1,4 +1,5 @@
-# Prototype website for clothing shop - GraphQL with React fullstack
+# Prototype website for clothing shop
+- GraphQL with React fullstack
 
 website address: 
 https://tshirtsfactory.herokuapp.com/
@@ -15,11 +16,5 @@ expiration: 02/22
 
 cvs: 222
 
- You can also create your own user id.
- 
- thank you for visiting
- 
- Best Regards,
- 
-David Lee
- 
+You can also create your own user id.
+thank you for visiting!
