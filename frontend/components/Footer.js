@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Link from "next/link";
-import Signout from "./Signout";
 import { FooterDiv, Address, CopyRight } from "./styles/FooterStyles";
 
 class FooterSection extends Component {
