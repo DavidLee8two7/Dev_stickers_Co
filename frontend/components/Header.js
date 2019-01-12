@@ -67,6 +67,7 @@ const StyleHeader = styled.header`
     grid-template-columns: auto 1fr;
     justify-content: space-between;
     align-items: stretch;
+    border-bottom: 1.5px solid yellow;
     @media screen and (max-width: 1350px) {
       grid-template-columns: 1fr;
       justify-content: center;
@@ -78,7 +79,7 @@ const StyleHeader = styled.header`
     margin-bottom: 0;
     display: grid;
     grid-template-columns: 1fr auto;
-    border-bottom: 1px solid yellow;
+    border-bottom: 1px solid ${props => props.theme.lightGray};
   }
 `;
 
@@ -86,7 +87,7 @@ const Header = () => (
   <StyleHeader>
     <div className="bar">
       <Logo>
-        <Link href="/items">
+        <Link href="/home">
           <a>T - shirts factory</a>
         </Link>
       </Logo>

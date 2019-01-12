@@ -715,66 +715,68 @@ var Logo = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.h1.withConfi
 var StyleHeader = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.header.withConfig({
   displayName: "Header__StyleHeader",
   componentId: "sc-12ds9y6-1"
-})(["margin:0 auto 2rem auto;.bar{background:", ";border-bottom:2px solid yellow;display:grid;grid-template-columns:auto 1fr;justify-content:space-between;align-items:stretch;@media screen and (max-width:1350px){grid-template-columns:1fr;justify-content:center;}}.sub-bar{max-width:1200px;margin:2rem auto;margin-bottom:0;display:grid;grid-template-columns:1fr auto;border-bottom:1px solid yellow;}"], function (props) {
+})(["margin:0 auto 2rem auto;.bar{background:", ";border-bottom:2px solid yellow;display:grid;grid-template-columns:auto 1fr;justify-content:space-between;align-items:stretch;border-bottom:1.5px solid yellow;@media screen and (max-width:1350px){grid-template-columns:1fr;justify-content:center;}}.sub-bar{max-width:1200px;margin:2rem auto;margin-bottom:0;display:grid;grid-template-columns:1fr auto;border-bottom:1px solid ", ";}"], function (props) {
   return props.theme.brown;
+}, function (props) {
+  return props.theme.lightGray;
 });
 
 var Header = function Header() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyleHeader, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 87
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "bar",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 88
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Logo, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/items",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 89
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/home",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 90
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
   }, "T - shirts factory"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 94
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-bar",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 96
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Search__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 97
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Cart__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 99
     },
     __self: this
   }));
@@ -2021,13 +2023,13 @@ var FooterDiv = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.footer.
 var Address = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "FooterStyles__Address",
   componentId: "sc-9lfkkk-1"
-})(["width:100%;text-align:center;color:", ";font-size:2.5rem;@media screen and (max-width:1250px){font-size:2.3rem;}@media screen and (max-width:1150px){font-size:2.1rem;}@media screen and (max-width:1050px){font-size:1.8rem;}@media screen and (max-width:950px){font-size:1.6rem;}@media screen and (max-width:800px){font-size:1.4rem;}@media screen and (max-width:700px){font-size:1.6rem;}@media screen and (max-width:450px){font-size:1.4rem;}@media screen and (max-width:380px){font-size:1.1rem;}"], function (props) {
+})(["width:100%;text-align:center;color:", ";font-size:2.5rem;@media screen and (max-width:1250px){font-size:2.3rem;}@media screen and (max-width:1150px){font-size:2.1rem;}@media screen and (max-width:1050px){font-size:1.8rem;}@media screen and (max-width:950px){font-size:1.6rem;}@media screen and (max-width:800px){font-size:1.4rem;}@media screen and (max-width:380px){font-size:1.1rem;}"], function (props) {
   return props.theme.offWhite;
 });
 var CopyRight = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "FooterStyles__CopyRight",
   componentId: "sc-9lfkkk-2"
-})(["width:100%;text-align:center;color:", ";font-size:2.5rem;a{color:", ";&:link,&:visited{text-decoration:none;text-transform:uppercase;display:inline-block;transition:all 0.2s;}&:hover,&:active{color:", ";box-shadow:0 1rem 2rem rgba(white,0.4);transform:translateY(-1rem) rotate(3deg) scale(1.01);}}@media screen and (max-width:1250px){font-size:2.3rem;}@media screen and (max-width:1150px){font-size:2.1rem;}@media screen and (max-width:1050px){font-size:1.8rem;}@media screen and (max-width:950px){font-size:1.6rem;}@media screen and (max-width:800px){font-size:1.4rem;}@media screen and (max-width:700px){font-size:1.6rem;}@media screen and (max-width:450px){font-size:1.4rem;}@media screen and (max-width:380px){font-size:1.1rem;}"], function (props) {
+})(["width:100%;text-align:center;color:", ";font-size:2.5rem;a{color:", ";&:link,&:visited{text-decoration:none;text-transform:uppercase;display:inline-block;transition:all 0.2s;}&:hover,&:active{color:", ";box-shadow:0 1rem 2rem rgba(white,0.4);transform:translateY(-1rem) rotate(3deg) scale(1.01);}}@media screen and (max-width:1250px){font-size:2.3rem;}@media screen and (max-width:1150px){font-size:2.1rem;}@media screen and (max-width:1050px){font-size:1.8rem;}@media screen and (max-width:950px){font-size:1.6rem;}@media screen and (max-width:800px){font-size:1.4rem;}@media screen and (max-width:380px){font-size:1.1rem;}"], function (props) {
   return props.theme.offWhite;
 }, function (props) {
   return props.theme.yellow;

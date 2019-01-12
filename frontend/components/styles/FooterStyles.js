@@ -37,12 +37,6 @@ const Address = styled.div`
   @media screen and (max-width: 800px) {
     font-size: 1.4rem;
   }
-  @media screen and (max-width: 700px) {
-    font-size: 1.6rem;
-  }
-  @media screen and (max-width: 450px) {
-    font-size: 1.4rem;
-  }
   @media screen and (max-width: 380px) {
     font-size: 1.1rem;
   }
@@ -82,12 +76,6 @@ const CopyRight = styled.div`
     font-size: 1.6rem;
   }
   @media screen and (max-width: 800px) {
-    font-size: 1.4rem;
-  }
-  @media screen and (max-width: 700px) {
-    font-size: 1.6rem;
-  }
-  @media screen and (max-width: 450px) {
     font-size: 1.4rem;
   }
   @media screen and (max-width: 380px) {

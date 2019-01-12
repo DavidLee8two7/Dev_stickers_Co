@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Head from "next/head";
+import Link from "next/link";
 import {
   HomeStyles,
   IntroductionDiv,
@@ -55,7 +56,13 @@ class Home extends Component {
         <PrintingShop>
           <div className="custom_printing">
             <Title>
-              <a>Custom T - Shirts printing</a>
+              <Link
+                href={{
+                  pathname: "/items"
+                }}
+              >
+                <a>Custom T - Shirts printing</a>
+              </Link>
             </Title>
           </div>
           <ul>

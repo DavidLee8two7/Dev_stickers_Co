@@ -8,7 +8,7 @@ const Title = styled.h3`
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
   border-radius: 9px;
   a {
-    background: ${props => props.theme.brown};
+    background: ${props => props.theme.red};
     display: inline;
     line-height: 1.3;
     font-size: 3rem;
