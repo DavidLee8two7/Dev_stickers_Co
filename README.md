@@ -1,11 +1,24 @@
-# Prototype website for clothing shop
-GraphQL with React fullstack
-
-- website address: 
+## Prototype website for clothing shop<br>
 https://tshirtsfactory.herokuapp.com/
 
-For full functionality you can use below info.
+## Available Scripts
 
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br>
+
+## `Sample user info`
 user id: admin@gmail.com
 
 password: admin123
